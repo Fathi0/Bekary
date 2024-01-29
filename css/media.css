@@ -1,0 +1,77 @@
+
+@media screen and (min-width: 1024px) {
+
+}
+@media screen and (min-width:642px)and (max-width: 777px){
+    .who,.ourInfo{
+        text-align: center;
+    }
+    .iframe{
+        width: 100%;
+    }
+    .line{
+        display: block
+    }
+}
+
+/* For Tablet View */
+@media screen and (min-width: 768px) 
+    and (max-width: 1024px) {
+        .iframe{
+            width: 100%;
+        }
+
+}
+ 
+/* For Mobile Portrait View */
+@media screen and (max-width: 480px) 
+    and (orientation: portrait) {
+
+        .iframe{
+            width: 100%;
+        }
+        .line{
+            display: block
+        }
+
+}
+ 
+/* For Mobile Landscape View */
+@media screen and (max-width: 640px) 
+     {
+        .who,.ourInfo{
+            text-align: center;
+        }
+
+        .iframe{
+            width: 100%;
+        }
+
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen
+    and (max-width: 640px) {
+        .who,.ourInfo{
+            text-align: center;
+        }
+        .iframe{
+            width: 100%;
+        }
+        .line{
+            display: block
+        }
+}
+ 
+
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-height: 667px) 
+    and (min-width: 375px) 
+     {
+        .who,.ourInfo{
+            text-align: center;
+        }
+
+
+    };
